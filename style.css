@@ -1,0 +1,35 @@
+body{
+    background-color: #80f085;
+}
+h1{
+    color:rgb(184, 0, 0);
+    margin-left: 30px;
+}
+.header{
+    background-color: cadetblue;
+    display: flex;
+    justify-content: space-between;
+
+}
+.grid{
+    background: skyblue;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+}
+p,h2{
+    text-align:center;
+}
+.share{
+    display:flex ;
+    justify-content:flex-end ;
+}
+.header *{
+    border:solid ;
+}
+a:link{
+    color: #846569
+}
+a:visited{
+    color: #00ffaa
+}
