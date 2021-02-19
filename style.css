@@ -24,12 +24,29 @@ p,h2{
     display:flex ;
     justify-content:flex-end ;
 }
-.header *{
-    border:solid ;
-}
 a:link{
     color: #846569
 }
 a:visited{
     color: #00ffaa
+}
+.menu{
+    margin-right: 30px;
+    padding: 10px;
+}
+.menu a{
+    margin-left: 20px;
+}
+.item{
+    position: relative;
+}
+.item p{
+    position:absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+}
+.item:hover p{
+    opacity:1
 }
